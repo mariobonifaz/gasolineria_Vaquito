@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="1294.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Controller">
+   <children>
+      <Circle fx:id="despacher1" fill="WHITE" layoutX="1032.0" layoutY="129.0" radius="15.0" stroke="#ae747400" strokeType="INSIDE" />
+      <Button fx:id="btnInit" layoutX="43.0" layoutY="603.0" mnemonicParsing="false" onAction="#IniciarAnimacion" style="-fx-background-color: yellowgreen; -fx-background-radius: 30;" text="Iniciar" textFill="WHITE" />
+      <Button fx:id="BtnSalir" layoutX="119.0" layoutY="603.0" mnemonicParsing="false" onAction="#Finalizar" style="-fx-background-color: red; -fx-background-radius: 30;" text="Terminar" textFill="WHITE" />
+      <Rectangle fx:id="bomb1" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="474.0" layoutY="73.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+      <Rectangle fx:id="bomb2" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="570.0" layoutY="73.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb3" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="662.0" layoutY="73.0" stroke="#ffffff00" strokeType="INSIDE" width="66.0" />
+      <Rectangle fx:id="bomb4" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="764.0" layoutY="73.0" stroke="#ffffff00" strokeType="INSIDE" width="64.0" />
+      <Rectangle fx:id="bomb5" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="475.0" layoutY="156.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb6" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="570.0" layoutY="156.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb7" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="663.0" layoutY="156.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb8" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="766.0" layoutY="156.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb9" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="475.0" layoutY="440.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb10" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="570.0" layoutY="440.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb11" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="663.0" layoutY="440.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb12" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="764.0" layoutY="440.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb13" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="475.0" layoutY="520.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb14" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="570.0" layoutY="520.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb15" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="663.0" layoutY="520.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb16" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="762.0" layoutY="520.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb17" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="475.0" layoutY="603.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb18" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="570.0" layoutY="603.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb19" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="663.0" layoutY="603.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Rectangle fx:id="bomb20" arcHeight="5.0" arcWidth="5.0" fill="#b2b2b2" height="50.0" layoutX="762.0" layoutY="603.0" stroke="#ffffff00" strokeType="INSIDE" width="65.0" />
+      <Circle fx:id="facturador" fill="WHITE" layoutX="1226.0" layoutY="324.0" radius="15.0" stroke="#ffffff00" strokeType="INSIDE" />
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Área Reservada">
+         <font>
+            <Font name="Dosis ExtraLight" size="19.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#a4988e" height="200.0" layoutX="317.0" layoutY="231.0" stroke="TRANSPARENT" strokeType="INSIDE" width="30.0" />
+      <Text layoutX="63.0" layoutY="281.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Clientes">
+         <font>
+            <Font name="Dosis ExtraLight" size="19.0" />
+         </font>
+      </Text>
+      <Circle fx:id="despachador" fill="WHITE" layoutX="1032.0" layoutY="132.0" radius="15.0" stroke="#ae747400" strokeType="INSIDE" />
+      <Label fx:id="lbldespacher1" layoutX="982.0" layoutY="49.0" prefHeight="18.0" prefWidth="100.0" />
+      <ImageView cache="true" fitHeight="80.0" fitWidth="50.0" layoutX="343.0" layoutY="297.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true" rotate="90.0">
+         <image>
+            <Image url="@Resource/img/guardia.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="410.0" layoutY="3.0" text="Gasolineria Vaquito">
+         <font>
+            <Font name="Dosis ExtraLight" size="39.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="98.0" fitWidth="39.0" layoutX="1207.0" layoutY="261.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/contador.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="41.0" layoutX="1013.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/empleado.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="474.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png"/>
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="569.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="662.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="763.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="474.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="569.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="662.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png"/>
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="765.0" layoutY="148.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="474.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="569.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="662.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="763.0" layoutY="432.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="474.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="569.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="662.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="761.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="474.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="569.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="662.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+      <ImageView disable="true" fitHeight="67.0" fitWidth="75.0" layoutX="761.0" layoutY="595.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Resource/img/klipartz.com.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
